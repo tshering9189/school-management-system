@@ -26,10 +26,10 @@
                                     <div class="form-group">
                                         <h5>Select User Roll <span class="text-danger">*</span></h5>
                                         <div class="controls">
-                                            <select name="usertype" id="select" class="form-control">
+                                            <select name="role" id="select" class="custom-select custom-select-lg mb-3">
                                                 <option value="" selected="" disabled="">Select Role</option>
-                                                <option value="admin" {{ ($editData->usertype == 'admin' ? 'selected' : '') }}>Admin</option>
-                                                <option value="user" {{ ($editData->usertype == 'user' ? 'selected' : '') }}>User</option>
+                                                <option value="Admin" {{ ($editData->role == 'Admin' ? 'selected' : '') }}>Admin</option>
+                                                <option value="Operator" {{ ($editData->role == 'Operator' ? 'selected' : '') }}>Operator</option>
                                             </select>
                                         </div>
                                     </div>
