@@ -44,7 +44,7 @@ class ProfileController extends Controller
         $data->save();
 
         $notification = array(
-            'message' => 'User Profile Successfully',
+            'message' => 'User Profile Stored Successfully',
             'alert-type' => 'success'
         );
 
